@@ -29,15 +29,55 @@ To start the server:
 npm start
 ```
 
-The server will start running on `http://localhost:3000` by default.
+The server will start running on `http://localhost:3001` by default.
 
 ## API Endpoints
 
 The following endpoints are available:
 
-- `GET /endpoint1` - Description of endpoint1
-- `POST /endpoint2` - Description of endpoint2
-- [Add more endpoints as needed]
+### Streams
+
+- `GET /streams` - Get all stream records
+- `GET /streams/:id` - Get a specific stream by ID
+- `GET /streams?userId=:userId` - Get streams for a specific user
+- `GET /streams?_sort=dateStreamed&_order=desc` - Get streams sorted by date
+
+### Key Metrics
+
+- `GET /keyMetrics` - Get overall platform metrics including:
+  - Total Users
+  - Active Users
+  - Total Streams
+  - Revenue
+  - Top Artist
+
+### Revenue Distribution
+
+- `GET /revenueDistribution` - Get revenue breakdown by category:
+  - Premium Subscriptions
+  - Ad Revenue
+  - Merchandise
+  - Other
+
+### Top Songs
+
+- `GET /topSongs` - Get list of top performing songs with stream counts
+
+### User Growth
+
+- `GET /userGrowth` - Get historical user growth data by month
+
+### Filtering and Sorting
+
+- Use `_sort` and `_order` parameters for sorting
+- Use `_limit` parameter to limit results
+- Use property names as query parameters for filtering
+
+Example:
+
+```bash
+GET /streams?_sort=streamCount&_order=desc&_limit=5
+```
 
 ## Dependencies
 

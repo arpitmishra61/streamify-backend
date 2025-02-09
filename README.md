@@ -23,13 +23,36 @@ npm install
 
 ## Usage
 
-To start the server:
+### Local Development
+
+To start the server locally:
 
 ```bash
 npm start
 ```
 
 The server will start running on `http://localhost:3001` by default.
+
+### Production API
+
+The API is deployed and available at:
+
+```
+https://streamify-backend-2nzg.onrender.com
+```
+
+You can access all the API endpoints using this base URL. For example:
+
+```bash
+# Get all streams
+GET https://streamify-backend-2nzg.onrender.com/streams
+
+# Get key metrics
+GET https://streamify-backend-2nzg.onrender.com/keyMetrics
+
+# Get top 5 streams by count
+GET https://streamify-backend-2nzg.onrender.com/streams?_sort=streamCount&_order=desc&_limit=5
+```
 
 ## API Endpoints
 

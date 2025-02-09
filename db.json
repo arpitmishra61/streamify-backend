@@ -1,0 +1,249 @@
+{
+  "streams": [
+    {
+      "id": "stream-1",
+      "songName": "Midnight Dreams",
+      "artist": "Luna Eclipse",
+      "dateStreamed": "2024-03-15",
+      "streamCount": 856,
+      "userId": "user-123"
+    },
+    {
+      "id": "stream-2",
+      "songName": "Dancing in the Rain",
+      "artist": "The Storms",
+      "dateStreamed": "2024-03-14",
+      "streamCount": 654,
+      "userId": "user-456"
+    },
+    {
+      "id": "stream-3",
+      "songName": "Neon Lights",
+      "artist": "Cyber Punk",
+      "dateStreamed": "2024-03-13",
+      "streamCount": 742,
+      "userId": "user-789"
+    },
+    {
+      "id": "stream-4",
+      "songName": "Mountain High",
+      "artist": "The Climbers",
+      "dateStreamed": "2024-03-13",
+      "streamCount": 567,
+      "userId": "user-234"
+    },
+    {
+      "id": "stream-5",
+      "songName": "Ocean Waves",
+      "artist": "Coastal Vibes",
+      "dateStreamed": "2024-03-12",
+      "streamCount": 890,
+      "userId": "user-345"
+    },
+    {
+      "id": "stream-6",
+      "songName": "Electric Heart",
+      "artist": "Neon Pulse",
+      "dateStreamed": "2024-03-12",
+      "streamCount": 678,
+      "userId": "user-567"
+    },
+    {
+      "id": "stream-7",
+      "songName": "Sunset Drive",
+      "artist": "Summer Breeze",
+      "dateStreamed": "2024-03-11",
+      "streamCount": 543,
+      "userId": "user-678"
+    },
+    {
+      "id": "stream-8",
+      "songName": "City Lights",
+      "artist": "Urban Dreams",
+      "dateStreamed": "2024-03-11",
+      "streamCount": 789,
+      "userId": "user-890"
+    },
+    {
+      "id": "stream-9",
+      "songName": "Desert Wind",
+      "artist": "Sand Riders",
+      "dateStreamed": "2024-03-10",
+      "streamCount": 432,
+      "userId": "user-901"
+    },
+    {
+      "id": "stream-10",
+      "songName": "Forest Echo",
+      "artist": "Nature's Call",
+      "dateStreamed": "2024-03-10",
+      "streamCount": 876,
+      "userId": "user-012"
+    },
+    {
+      "id": "stream-11",
+      "songName": "Midnight Dreams",
+      "artist": "Luna Eclipse",
+      "dateStreamed": "2024-03-09",
+      "streamCount": 654,
+      "userId": "user-123"
+    },
+    {
+      "id": "stream-12",
+      "songName": "Starlight",
+      "artist": "Galaxy Wanderers",
+      "dateStreamed": "2024-03-09",
+      "streamCount": 987,
+      "userId": "user-234"
+    },
+    {
+      "id": "stream-13",
+      "songName": "Winter's Tale",
+      "artist": "Snow Patrol",
+      "dateStreamed": "2024-03-08",
+      "streamCount": 543,
+      "userId": "user-345"
+    },
+    {
+      "id": "stream-14",
+      "songName": "Summer Nights",
+      "artist": "Beach Boys",
+      "dateStreamed": "2024-03-08",
+      "streamCount": 765,
+      "userId": "user-456"
+    },
+    {
+      "id": "stream-15",
+      "songName": "Autumn Leaves",
+      "artist": "Season Change",
+      "dateStreamed": "2024-03-07",
+      "streamCount": 432,
+      "userId": "user-567"
+    },
+    {
+      "id": "stream-16",
+      "songName": "Spring Bloom",
+      "artist": "Garden Fresh",
+      "dateStreamed": "2024-03-07",
+      "streamCount": 876,
+      "userId": "user-678"
+    },
+    {
+      "id": "stream-17",
+      "songName": "Rainy Day",
+      "artist": "Weather Watch",
+      "dateStreamed": "2024-03-06",
+      "streamCount": 654,
+      "userId": "user-789"
+    },
+    {
+      "id": "stream-18",
+      "songName": "Sunny Side",
+      "artist": "Bright Days",
+      "dateStreamed": "2024-03-06",
+      "streamCount": 987,
+      "userId": "user-890"
+    },
+    {
+      "id": "stream-19",
+      "songName": "Moonlight Sonata",
+      "artist": "Classical Vibes",
+      "dateStreamed": "2024-03-05",
+      "streamCount": 543,
+      "userId": "user-901"
+    },
+    {
+      "id": "stream-20",
+      "songName": "Jazz Night",
+      "artist": "Blue Notes",
+      "dateStreamed": "2024-03-05",
+      "streamCount": 765,
+      "userId": "user-012"
+    },
+    {
+      "id": "stream-21",
+      "songName": "Rock On",
+      "artist": "Heavy Metal",
+      "dateStreamed": "2024-03-04",
+      "streamCount": 432,
+      "userId": "user-123"
+    },
+    {
+      "id": "stream-22",
+      "songName": "Pop Stars",
+      "artist": "Chart Toppers",
+      "dateStreamed": "2024-03-04",
+      "streamCount": 876,
+      "userId": "user-234"
+    }
+  ],
+  "keyMetrics": {
+    "totalUsers": 1250000,
+    "activeUsers": 850000,
+    "totalStreams": 25000000,
+    "revenue": 4750000,
+    "topArtist": "Luna Eclipse"
+  },
+  "revenueDistribution": [
+    {
+      "name": "Premium Subscriptions",
+      "value": 3800000
+    },
+    {
+      "name": "Ad Revenue",
+      "value": 750000
+    },
+    {
+      "name": "Merchandise",
+      "value": 150000
+    },
+    {
+      "name": "Other",
+      "value": 50000
+    }
+  ],
+  "topSongs": [
+    {
+      "name": "Midnight Dreams",
+      "streams": 1500000,
+      "artist": "Luna Eclipse"
+    },
+    {
+      "name": "Dancing in the Rain",
+      "streams": 1200000,
+      "artist": "The Storms"
+    },
+    {
+      "name": "Electric Heart",
+      "streams": 900000,
+      "artist": "Neon Pulse"
+    },
+    {
+      "name": "Mountain High",
+      "streams": 750000,
+      "artist": "The Climbers"
+    },
+    {
+      "name": "Ocean Waves",
+      "streams": 600000,
+      "artist": "Coastal Vibes"
+    }
+  ],
+  "userGrowth": [
+    {
+      "date": "Mar 2024",
+      "totalUsers": 1250000,
+      "activeUsers": 850000
+    },
+    {
+      "date": "Feb 2024",
+      "totalUsers": 1200000,
+      "activeUsers": 820000
+    },
+    {
+      "date": "Jan 2024",
+      "totalUsers": 1150000,
+      "activeUsers": 790000
+    }
+  ]
+} 

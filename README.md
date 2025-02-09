@@ -12,7 +12,7 @@ A simple REST API server for the Streamify Dashboard application using json-serv
 1. Clone the repository:
 
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/arpitmishra61/streamify-backend
 ```
 
 2. Install dependencies:
